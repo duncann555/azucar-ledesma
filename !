@@ -1,0 +1,29 @@
+[33mcommit cd251d0de48fef7606f84009e68061f2f9a04c00[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcategorias[m[33m)[m
+Author: duncann555 <sebaflomen@gmail.com>
+Date:   Sun May 11 03:33:32 2025 -0300
+
+    agregue linea en el footer y parrafo copyright y disminui margin x en iconos
+
+[33mcommit d9c7982f031df3c81ff86de3edb7ce13b89d464f[m
+Author: duncann555 <sebaflomen@gmail.com>
+Date:   Sun May 11 03:27:02 2025 -0300
+
+    Hice footer, poniendo los iconos de las redes sociales, color primary y padding
+
+[33mcommit 64a3dbc97c06f2564febc078dae3105e87bad28b[m
+Author: duncann555 <sebaflomen@gmail.com>
+Date:   Sun May 11 03:08:56 2025 -0300
+
+    Puse logo, y conteiner, y menu a la derecha
+
+[33mcommit 1bb0217f4165c56ad4b22a3aa1c188b1ea1f25bb[m
+Author: duncann555 <sebaflomen@gmail.com>
+Date:   Sat May 10 22:38:37 2025 -0300
+
+    Navbar agregado en el index.html con sus links configurados
+
+[33mcommit 0a658663636dc2dab2b0e05e54bb38c522797632[m[33m ([m[1;32mmain[m[33m, [m[1;32mdev[m[33m)[m
+Author: duncann555 <sebaflomen@gmail.com>
+Date:   Sat May 10 21:56:16 2025 -0300
+
+    Estructura principal del proyecto, con bootstrap linkeado
