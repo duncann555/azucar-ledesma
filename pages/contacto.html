@@ -57,8 +57,75 @@
     </header>
 
     <main>
-      
+      <section class="container my-5">
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <h2 class="mb-4 text-primary">Contacto</h2>
+            <form>
+              <div class="mb-3">
+                <label for="inputNombre" class="form-label">Nombre completo</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputNombre"
+                  placeholder="Juan Pérez"
+                  required
+                />
+              </div>
+    
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Correo electrónico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  placeholder="juanperez@email.com"
+                  required
+                />
+              </div>
+    
+              <div class="mb-3">
+                <label for="inputTelefono" class="form-label">Teléfono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="inputTelefono"
+                  placeholder="381-4137174"
+                />
+              </div>
+    
+              <div class="mb-3">
+                <label for="inputConsulta" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control"
+                  id="inputConsulta"
+                  rows="4"
+                  placeholder="Escriba su consulta aquí"
+                  required
+                ></textarea>
+              </div>
+    
+              <button class="btn btn-primary w-100" type="submit">
+                Enviar consulta
+              </button>
+            </form>
+          </div>
+    
+          <div class="col-12 col-md-6">
+            <h2 class="mb-4 text-primary">Ubicación</h2>
+            <iframe
+              class="w-100 rounded shadow"
+              src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113923.41334729803!2d-65.28956847467931!3d-26.83655943099712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sGral.%20Jos%C3%A9%20Mar%C3%ADa%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!3m2!1d-26.836583299999997!2d-65.207167!5e0!3m2!1ses-419!2sar!4v1746725460627!5m2!1ses-419!2sar"
+              height="350"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </main>
+    
 
     <footer class="bg-primary py-1 text-center text-light">
       <h5 class="fs-4">Seguinos en</h5>
